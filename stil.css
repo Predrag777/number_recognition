@@ -1,0 +1,57 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.section1{
+    top:0;
+    position: fixed; 
+    font-size: 26px;
+    background-color: #6A5ACD;
+    height: 120px;
+    width: 100%;
+}
+
+.section2{
+    margin-top:150px;
+    height: 15%;
+    width:100%; 
+    background-color: white;
+}
+
+
+/* Osnovni stil dugmeta */
+/* Osnovni stil dugmeta */
+#saveButton, #deleteButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Stil za oba dugmeta */
+  #saveButton, #deleteButton {
+    color: white;
+  }
+  
+  #saveButton {
+    background-color: purple;
+  }
+  
+  #deleteButton {
+    background-color: red;
+  }
+  
+  /* Promjena stila na hover */
+  #saveButton:hover, #deleteButton:hover {
+    background-color: white;
+    color: purple;
+  }
+  
